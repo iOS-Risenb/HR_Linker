@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HR_Linker_Example' do
+  pod 'HR_Linker', :path => '../'
+
+  target 'HR_Linker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
